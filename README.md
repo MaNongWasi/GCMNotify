@@ -1,6 +1,17 @@
 # GCMNotify
 AWS SNS GCM notification
 
+GCM send notification to android device:
+https://docs.kii.com/cn/samples/push-notifications/push-notifications-android/
+https://www.intertech.com/Blog/push-notifications-tutorial-for-android-using-google-cloud-messaging-gcm/
+
+make a configuration file:
+https://pushbots.com/developer/docs/android-configuration
+or follow the instruction to use firebase
+
+GCM TESTING:
+http://apns-gcm.bryantan.info/
+
 TO register AWS SNS with GCM:
 Option 1: set in aws sns web page
 
@@ -13,5 +24,4 @@ Option 1: set in aws sns web page
 Option 2: Use Code in SNSTestActivity: 'AWSCreateEndpointTask' End Point can be known through result
 reference Link: http://www.mobileaws.com/2015/03/25/amazon-sns-push-notification-tutorial-android-using-gcm/
 
-GCM TESTING:
-http://apns-gcm.bryantan.info/
+
