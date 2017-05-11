@@ -24,4 +24,5 @@ Option 1: set in aws sns web page
 Option 2: Use Code in SNSTestActivity: 'AWSCreateEndpointTask' End Point can be known through result
 reference Link: http://www.mobileaws.com/2015/03/25/amazon-sns-push-notification-tutorial-android-using-gcm/
 
-
+Video reference:
+https://www.youtube.com/watch?v=XM3THjZkRQM
