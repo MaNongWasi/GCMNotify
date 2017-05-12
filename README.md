@@ -12,7 +12,7 @@ or follow the instruction to use firebase
 GCM TESTING:
 http://apns-gcm.bryantan.info/
 
-TO register AWS SNS with GCM:
+TO register AWS SNS with GCM for testing(In this case, each phone has registered one by one):
 Set in aws sns web page
 
 1. ![create](https://cloud.githubusercontent.com/assets/8034605/25904330/37275fac-359f-11e7-9612-ded028a8df06.PNG)
