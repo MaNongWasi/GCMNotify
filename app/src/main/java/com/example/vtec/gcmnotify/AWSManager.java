@@ -32,7 +32,7 @@ public class AWSManager {
     public static AmazonSNSClient getSNSClient(){
         if(snsClient == null){
             snsClient = new AmazonSNSClient( new BasicAWSCredentials( _ACCESS_KEY_ID, _SECRET_KEY ) );
-            snsClient.setRegion(Region.getRegion(Regions.EU_CENTRAL_1));
+            snsClient.setRegion(Region.getRegion(region));
         }
         return snsClient;
     }
